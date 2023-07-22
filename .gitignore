@@ -1,0 +1,9 @@
+*package-lock.json
+*node_modules/
+*config.json
+*.sqlite
+*bin/
+*obj/
+*.vscode
+*web/
+*stuff/config.json

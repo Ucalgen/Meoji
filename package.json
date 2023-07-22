@@ -1,0 +1,20 @@
+{
+  "name": "meoji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/sqlite": "^3.6.5",
+    "@keyvhq/core": "^2.0.0",
+    "ascii-table": "^0.0.9",
+    "beautify": "^0.0.8",
+    "keyv": "^4.5.3",
+    "revolt.js": "^7.0.0-beta.9"
+  }
+}
