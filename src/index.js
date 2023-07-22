@@ -79,7 +79,7 @@ bot.on("messageCreate", async message => {
         fs.readdirSync(`${path}/src/commands/`).forEach(dir => {
             let commands
             commands = fs.readdirSync(`${path}/src/commands/${dir}/`).filter(file =>
-                file.endsWith(['.js']))
+                file.endsWith('.js'))
 
             for (let file of commands) {
                 let pull = require(`./commands/${dir}/${file}`)
